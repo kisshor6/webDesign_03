@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>image slider</title>
+    <link rel="stylesheet" href="slide.css">
+</head>
+<body>
+    <div class="slide-container">
+        <div class="slide">
+            <img src="images/download.jpg">
+            <div class="caption">caption 1</div>
+        </div>
+        <div class="slide">
+            <img src="images/OIP1.jpg">
+            <div class="caption">caption 2</div>
+        </div>
+        <div class="slide">
+            <img src="images/OIP2.jpg">
+            <div class="caption">caption 3</div>
+        </div>
+        <div class="slide">
+            <img src="images/OIP3.jpg">
+            <div class="caption">caption 4</div>
+        </div>
+    </div> 
+    <span class="arrow right" onclick="main(-1)">&#10094;</span>
+    <span class="arrow left" onclick="main(1)">&#10095;</span>   
+<script src="slide.js"></script>    
+</body>
+</html>
